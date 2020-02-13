@@ -43,9 +43,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2D880623F5510500413A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC56B9C23F52009004E9514 /* Info.plist */,
+				1DC56B9723F52009004E9514 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		1DC56B8223F52007004E9514 = {
 			isa = PBXGroup;
 			children = (
+				1D2D880623F5510500413A5C /* Supporting Files */,
 				1DC56B8D23F52007004E9514 /* Zuev_ Zadanie1 */,
 				1DC56B8C23F52007004E9514 /* Products */,
 			);
@@ -68,8 +78,6 @@
 				1DC56BA823F52C42004E9514 /* View */,
 				1DC56B8E23F52007004E9514 /* AppDelegate.swift */,
 				1DC56B9023F52007004E9514 /* SceneDelegate.swift */,
-				1DC56B9723F52009004E9514 /* Assets.xcassets */,
-				1DC56B9C23F52009004E9514 /* Info.plist */,
 			);
 			path = "Zuev_ Zadanie1";
 			sourceTree = "<group>";

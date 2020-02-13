@@ -28,8 +28,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
       
       func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cellIdentifier = "datacell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! DetailTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: DetailTableViewCell.self), for: indexPath) as! DetailTableViewCell
         
         cell.titleLabel.text = "Поручение №\(number)"
         cell.descriptionLabel.text = "Описание поручения №\(number)"
